@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "fa-social";
+  src:url("fonts/fa-social.eot");
+  src:url("fonts/fa-social.eot?#iefix") format("embedded-opentype"),
+    url("fonts/fa-social.woff") format("woff"),
+    url("fonts/fa-social.ttf") format("truetype"),
+    url("fonts/fa-social.svg#fa-social") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "fa-social" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="fa-social-"]:before,
+[class*=" fa-social-"]:before {
+  font-family: "fa-social" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-social-behance:before {
+  content: "\61";
+}
+.fa-social-behance-square:before {
+  content: "\62";
+}
+.fa-social-instagram:before {
+  content: "\63";
+}
+.fa-social-facebook:before {
+  content: "\64";
+}
+.fa-social-facebook-official:before {
+  content: "\65";
+}
+.fa-social-facebook-square:before {
+  content: "\66";
+}
+.fa-social-twitter:before {
+  content: "\67";
+}
+.fa-social-twitter-square:before {
+  content: "\68";
+}
+.fa-social-linkedin:before {
+  content: "\69";
+}
+.fa-social-linkedin-square:before {
+  content: "\6a";
+}
